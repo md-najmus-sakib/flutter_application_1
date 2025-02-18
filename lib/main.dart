@@ -19,18 +19,16 @@ class LabClass05 extends StatelessWidget {
           ),
           body: Row(
             children: [
-              Text(
-                "The First App",
-                style: TextStyle(
-                  color: Colors.red,
-                  fontSize: 30,
-                ),
-              ),
-              Icon(
-                Icons.ac_unit,
-                size: 60,
-                color: const Color.fromARGB(255, 0, 127, 123),
-              ),
+              Icon(Icons.star,
+                  size: 50, color: const Color.fromARGB(248, 11, 1, 8)),
+              Icon(Icons.star,
+                  size: 50, color: const Color.fromARGB(248, 11, 1, 8)),
+              Icon(Icons.star,
+                  size: 50, color: const Color.fromARGB(248, 11, 1, 8)),
+              Icon(Icons.star,
+                  size: 50, color: const Color.fromARGB(248, 11, 1, 8)),
+              Icon(Icons.star,
+                  size: 50, color: const Color.fromARGB(58, 11, 1, 8)),
             ],
           ),
         ));
